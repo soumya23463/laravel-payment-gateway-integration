@@ -80,7 +80,11 @@ $payment->currency = $response['purchase_units'][0]['payments']['captures'][0]['
     }
 }
 
+
+
     public function cancel(){
         return "payment is canceled";
     }
+
+    
 }
